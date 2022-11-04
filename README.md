@@ -32,6 +32,22 @@
 $ npm install
 ```
 
+## Test database
+
+Import the SQL file to have basic data to launch the application
+
+```bash
+  type: 'mysql',
+  host: 'localhost',
+  port: 3306,
+  username: 'root',
+  password: 'root',
+  database: 'maplrdb',
+```
+
+Tips for e2e testing : 
+remember to reset the basic data in the database
+
 ## Running the app
 
 ```bash
